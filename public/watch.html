@@ -72,6 +72,30 @@ a {
   color: #8fa0b9;
   font-size: 12px;
 }
+
+/* Улучшенное оформление для смартфонов */
+
+body {
+  justify-content: flex-start;
+  padding-top: 28px;
+}
+
+main {
+  max-width: 480px;
+}
+
+.video-frame {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  aspect-ratio: 9 / 16;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 48px;
+  }
+}     
 </style>
 </head>
 
